@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,400;1,500&family=Roboto:wght@700&display=swap');
+
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration:#fff;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:'Roboto', sans-serif;
+}
+p{
+    font-family:'Roboto', sans-serif;  
+}
+a{
+    font-family:'Roboto', sans-serif;  
+    color: rgb(27, 26, 26); 
+    
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.sidebar-brand span{
+    margin-left: 10px;
+}
+.container{
+    max-width: 1310px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sidebar-menu{
+    margin-top: 50px;
+}
+.sidebar-menu li span{
+    margin-left: 10px;
+    
+}
+.sidebar-menu li{
+    transition: all 0.5s ease;
+}
+.sidebar-menu li :hover{
+    background-color: rgba(83, 78, 78, 0.5);
+}
+.header-left span{
+    margin-left: 10px;
+
+}
+.clear{
+    clear: both;
+}
+/*sidebar css*/
+.sidebar-brand{
+    padding: 50px ;
+    padding-left: 40px;
+}
+.sidebar-menu ul li a{
+    display: block;
+    color: white;
+    padding: 10px;
+    padding-left: 40px;
+
+}
+section#main-content
+{
+    width: 80%;
+    float: right;
+    
+}
+header.main-header{
+position: fixed;
+background-color: white;
+box-shadow: 10px 10px 20px #bbb;
+width: 100%;
+}
+.header-left{
+    float:left;
+    width: 33%;
+    padding: 20px;
+
+}
+.header-left img{
+    width: 13%;
+    float: left;
+    padding-right: 10px;
+}
+.header-left p{
+    color:#bbb
+}
+input.search-bar{
+width:50%;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border:2px solid #bbb;
+    transition: width 1s ease;
+
+}
+input.search-bar:focus{
+outline: none;
+border: 2px solid #F08080;
+width: 95%;
+}
+i.fa.fa-search{
+background-color: #F08080;
+color:white;
+width: 35px;
+height: 35px;
+line-height: 35px;
+text-align: center;
+border-top-right-radius:50px 50px;
+border-bottom-right-radius: 50px 50px;
+margin-left: -38.5px;
+}
+.cus-num{
+    position: relative;
+}
+.cus-h:after{
+    content: "pharmacy";
+    content: "\f0c0";
+    font-family: "FONTAWESOME";
+    position: absolute;
+    right: 0;
+
+}
+
+.cus-pro:after{
+    content: "pharmacy";
+    content: "\f15b";
+    font-family: "FONTAWESOME";
+    position: absolute;
+    right: 0;
+
+}
+.main-content{
+    margin: 50px;
+    margin-left: 275px;
+    padding: 15px;
+    box-shadow: 0 0 8px rosybrown;
+}
+.cus-ord:after{
+    content: "pharmacy";
+    content: " \f1c1";
+    font-family: "FONTAWESOME";
+    position: absolute;
+    right: 0;
+
+}
+.cus-inc:after{
+    content: "pharmacy";
+    content: "\f0c0";
+    font-family: "FONTAWESOME";
+    position: absolute;
+    right: 0;
+
+}
+.pro_table{
+    width: 99%;
+    float: left;
+    background: white;
+    box-shadow: 10px 10px 10px rgb(133, 131, 131);
+    padding: 15px;
+   
+
+}
+table th{
+    text-align: left;
+   
+}
+table tr{
+    padding: 20px 0px 0px 0px;
+}
+.content-pro-par{
+    margin: 6% 2% 2% 0%;
+}
+.rec-h{
+    float: left;
+    
+    }
+.rec-btn{
+    float:right;
+}
+.recent-pro{
+    margin-bottom: 25px;
+}
+.footer-inner{
+    width: 97%;
+    float: left;
+    background: rgb(248, 242, 242);
+    box-shadow: 10px 10px 10px rgb(182, 181, 181);
+    padding: 15px;
+    margin-top: 10px;
+} 
+.card-box{
+    float: left;
+    width: 21%;
+    margin-top: 120px;
+    background:linear-gradient(45deg,#F08080 0%,#b4627d 100%);
+    margin-left: 2%;
+    display: fixed;
+    margin-right: 2%;
+    padding: 25px;
+    color: #fff;
+}
+section#sidebar{
+    width: 20%;
+    background-image:linear-gradient(#85C1E9,#85C1E9), url("../assets/nine.jpg");
+    top: 0;
+    left: 0;
+    color: white;
+    position: fixed;
+    height: 100%;
+
+}
+
+
+.card-header{
+    width: 97%;
+    float: left;
+    background: white;
+    box-shadow: 10px 10px 10px #bbb;
+    padding: 15px;  
+}
+.form-group{
+    width: 97%;
+    float: left;
+    background: white;
+    box-shadow: 10px 10px 10px #bbb;
+    padding: 15px;   
+}
+.btn{
+    background:#5DADE2;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color:#fff ;
+    display: block;
+    font-family: var(--my-btn-font);
+    font-size: 25px;
+    padding: 15px 0;
+    margin-top: 20px;
+    width: 97%;
+    font-weight:700;
+    text-transform: uppercase;
+    transition: all is ease;
+}
+.btn:hover{
+    background: linear-gradient(to right,#ca6fca,#9face6);
+}
+.header h2{
+    color: #222;
+    font-family:sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.form-control input{
+    width: 100%;
+    border: 2px solid #000;
+    border-radius: 3px;
+    display: block;
+    font-family:sans-serif;
+    font-size: 14px;
+    padding: 12px;
+}
+.form-control input :focus{
+    outline: 0;
+    border-color: #222;
+}
+.header{
+    background: rgb(248, 246, 250);
+    padding: 10px 0;
+    margin-top: 10px;
+    width: 97%;
+}
+
+
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.form-control input{
+    width: 97%;
+    border: 2px solid #f0f0f0;
+    border-radius: 3px;
+    font-family:sans-serif;
+    font-size: 14px;
+    padding: 12px;
+}
+.form-control input :focus{
+    outline: 0;
+    border-color: #222;
+}
+.badge-pending{
+    background:linear-gradient(#e633aa 0%,#f48fb1 100%);
+   
+}
+.badge-complete{
+    background:linear-gradient(rgba(16, 189, 241, 0.9),rgba(150, 114, 161, 0.9));
+    
+}
+.badge{
+    display: inline-block;
+       line-height: 1;
+    text-align: center;
+border-radius:.25rem;
+padding: 10px;
+}
+.badge-delete{
+    background:linear-gradient(#e71341 0%,#d1464d 100%);
+   
+}
+.badge-edit{
+    background:linear-gradient(#5d82b9 0%,#1d78f0 100%);
+}
+.form-control{
+    width: 97%;
+    border: 2px solid #f0f0f0;
+    border-radius: 3px;
+    font-family:sans-serif;
+    font-size: 14px;
+    padding: 12px; 
+    margin-top: 10px;
+}
+.form-control:focus{
+    outline: 0;
+    border-color: #222;
+}
+.form-control textarea{
+    width: 97%;
+    padding: 12px; 
+    border: 2px solid #f0f0f0;
+    
+}

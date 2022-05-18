@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width intial-scale=1">
+<meta http-equiv="X-UA-Compatable" content="ie=edge">
+<title>online medical store</title>
+   <!..Bootstrap cdn..>
+<link rel="stylesheet" 
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+crossorigin="anonymous">
+<!..font awesome..>
+<script src="https://kit.fontawesome.com/030448948b.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+ integrity="sha512-doJrC/ocU8VGVRx3O9981+2aYUn3fuWVWvqLi1U+tA2MWVzsw+NVKq1PrENF03M+TYBP92PnYUlXFH1ZW0FpLw==" crossorigin="anonymous"
+ referrerpolicy="no-referrer" />
+<!..custom stylesheet..>
+<link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+<header>  
+<div class="container">
+<div class="row">
+<div class="col-md-4  col-12 text-left ">
+<h5 class ="my-md-3 text-white "> Npharma online store </h5></div>
+<div class ="col-md-8 col-12 text-right">
+<p class="my-md-3 header-links">
+<a href="sign in.php"class="px-2 text-white">SIGN IN</a>
+<a href="register.php"class="px-1 text-white">CREATE AN ACCOUNT</a></p>
+</div>
+</div>
+</div>
+  <div class="container-fluid p-0">
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbar-Nav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+       <a class="nav-link" href="front.php">HOME <span class="sr-only">(current)</span></a>
+		</li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.php">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">PRODUCT</a>
+        </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">ALL COMPANY</a>
+      </li>
+<li class="nav-item">
+        <a class="nav-link" href="#">MY ORDERS</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">MY ACCOUNT</a>
+      </li>
+<li class="nav-item">
+        <a class="nav-link" href="contact.php">CONTACT US</a>
+      </li>
+</ul>
+  </div>
+ <div class="navbar-nav">
+  <li class="nav-item  mx-2 search-icon ">
+  <input type="search" placeholder="search" id="search"/>
+ <i class="fa fa-search P-2"></i> </li></div>
+ <div class="navbar-nav">
+ <li class="nav-item  mx-2 heart-icon ">
+ <i class="fa fa-heart P-2"></i>
+ </li></div>
+  <div class="navbar-nav">
+ <li class="nav-item  mx-2 cart-icon ">
+ <i class="fa fa-shopping-cart P-2"></i>
+ </li>
+</div>
+</nav>
+</header>
+<main>
+    <div class="bg-img-fluid">
+        <div class="contant">
+            <h1> Login Form</h1>
+            <form action="#">
+                <div class="field space">
+                    <span class="fa fa-user">
+                    </span>
+                    <input type="text" required placeholder="Email or  phone">
+                    
+                </div>
+                <div class="field space">
+                    <span class="fa fa-lock">  
+                    </span>
+                    <input type="password"  class ="password" required placeholder="password">
+                    <span class="show">Show</span>
+                </div>
+                <div class="pass">
+                    <a href="#">Forgot  password</a>
+                </div>
+                <div class="field ">
+                    <input type="submit" value="LOGIN">
+                </div>
+<div class="login"> Or Login With</div>
+<div class="link">
+ <div class="facebook">
+     <i class="fab fa-facebook-f"><span>facebook</span></i>
+ </div>
+ <div class="Instagram">
+    <i class="fab fa-instagram"><span>Instagram</span></i>
+</div>
+</div>
+<div class="Signup">Don't have account?
+<a href="#">Signup Now</a></div>
+            </form>
+           
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="copy-w3pvt" style="background:rgb(27, 27, 27);color:white">
+          <div class="container py-3">
+              <div class="row">
+                  <div class="col-lg-7 w3ls_footer_grid1_left text-lg-left text-center">
+                      <p style="color:white">&copy; 2021 online Pharmacy Store. All rights reserved | Design by
+                          NIKITA SHARMA</a>
+                      </p>
+                  </div>
+                  <div class="col-lg-5 w3ls_footer_grid_left1_pos text-lg-right text-center mt-lg-0 mt-2">
+                      <ul style="color:white">
+                          <li>
+                              <a href="#" style="color:white" class="facebook">
+                                  <span class="fa fa-facebook-f mr-2"></span>Facebook</a>
+                          </li>
+                          <li class="mx-3">
+                              <a href="#" style="color:white" class="twitter">
+                                  <span class="fa fa-twitter mr-2"></span>Twitter</a>
+                          </li>
+                          <li>
+                              <a href="#" style="color:white" class="google">
+                                  <span class="fa fa-google-plus mr-2"></span>Google Plus</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- //copyright -->
+      <!-- //footer bottom -->
+      <!-- move top icon -->
+      <a href="#home" style="color:white" class="move-top text-center"></a>
+      <!-- //move top icon -->
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+   integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+   crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script>
+    const pass_field=document.querySelector('.password');
+    const show_btn=document.querySelector('.show');
+    show_btn.addEventListener('click',function(){
+     if(pass_field.type==="password"){
+         pass_field.type="text";
+        show_btn.style.color="text";
+        show_btn.style.color="#3498db"
+        show_btn.textContent="HIDE";
+     }
+     else{
+         pass_field.type="password";
+         show_btn.style.color="#222"
+         show_btn.textContent="Show";
+
+     }
+    });
+</script>
+  </body>
+  </html>	
+  
